@@ -5,6 +5,8 @@ A github repository searching app based on github api and used firbase authoriza
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm insall` 
+lnstall all the libraries.
 
 ### `npm start`
 
