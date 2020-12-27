@@ -15,6 +15,7 @@ import UserCard from "../Components/UserCard";
 import { UserContext } from "../Context/UserContext";
 import { Redirect } from "react-router-dom";
 import { toast } from "react-toastify";
+
 const Home = () => {
   const context = useContext(UserContext);
   const [query, setQuery] = useState("");

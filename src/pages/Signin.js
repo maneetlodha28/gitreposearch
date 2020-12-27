@@ -14,6 +14,7 @@ import {
   Container,
 } from "reactstrap";
 
+
 import firebase from "firebase/app";
 import { UserContext } from "../Context/UserContext";
 import { Redirect } from "react-router-dom";
@@ -45,7 +46,8 @@ const Signup = () => {
 
   if (context.user?.uid) {
     return <Redirect to="/" />;
-  } else {
+  } 
+  else {
     return (
       <Container className="text-center">
         <Row>
